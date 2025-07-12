@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="./openDev.jpg" alt="" class="opDev">
+        <h1>TIC TAC TOE </h1> 
+        <div class="mo">
+            
+            <select name="" id="mode">
+        </div>
+        <option value="pvp"><p id="pvp">Player vs Player</p></option>
+            <option value="pvb">Player vs bot</option>
+        </select>
+        </div>
+    </header>
+    <div class="alerte">
+        <p id="alerte">Player 1's turn (O)</p>
+    </div>
+    <p class="tour">Player 1's turn (O)</p>
+    <div class="all">
+        <div class="tic">
+            <div id="1t" class="tac"></div>
+            <div id="2t" class="tac"></div>
+            <div id="3t" class="tac"></div>
+            <div id="4t" class="tac"></div>
+            <div id="5t" class="tac"></div>
+            <div id="6t" class="tac"></div>
+            <div id="7t" class="tac"></div>
+            <div id="8t" class="tac"></div>
+            <div id="9t" class="tac"></div>
+        </div>
+    </div>
+    <div id="repl">
+
+        <button class="replay" onclick="reboot()">Rejouer</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

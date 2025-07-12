@@ -1,0 +1,104 @@
+:root{
+    --princ: rgb(241, 241, 241);
+    --second: #48ADFF;
+    --third: #584A96;
+    --yes:#50D36A;
+    --no: #DC8974;
+}
+body{
+    background-color: var(--princ);
+    margin: 0px;
+    padding: 0px;
+}
+.opDev{
+    width: 60px;
+    border-radius: 100%;
+}
+#repl{
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+
+.replay{
+    padding: 5px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: var(--no);
+    backdrop-filter: opacity(5px);
+    color: var(--princ);
+    font-size: large;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition:  all 0.3s;
+}
+
+.replay:hover{
+    background-color: var(--third);
+}
+#mode{
+    padding: 7px;
+    border: none;
+}
+
+.alerte{
+    background-color: var(--no);
+    position: absolute;
+    padding: 1px;
+    height: 70px;
+    transition: all 0.3s;
+    text-align: center;
+    color: var(--princ);
+    font-size: 2rem;
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+header{
+    background-color: var(--third);
+    color: var(--princ);
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.tic{
+    display: grid;
+    grid-template-columns: 70px 70px 70px;
+}
+.tac{
+    width: 70px;
+    height: 70px;
+    background-color: var(--second);
+    border: 3px var(--princ) solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    transition: all 0.3s;
+    
+}
+
+.o{
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border: var(--princ) 6px solid;
+    border-radius: 100%;
+}
+
+.x{
+    font-size: 35px;
+    color: 	var(--princ);
+}
